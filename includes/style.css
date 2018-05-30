@@ -1,0 +1,130 @@
+* {margin: 0; padding: 0; }
+
+header, nav, main, section, article ,footer {display:block;}
+
+body {
+    background-color: #6C9FB0;
+}
+
+.container {
+    width: 850px;
+    margin: 0px auto;
+    direction: rtl;
+}
+
+h1 {
+    color: white;
+    font-size: 9em;
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    right: 53px;
+    top: 13px;
+}
+
+header {
+    position: relative;
+    top: 30px;
+    height: 142px;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    font-size: 1.6em;
+    right: 205px;
+    top: -11px;
+}
+
+svg {
+    position: absolute;
+    bottom: -55px;
+    left: 110px;
+}
+
+header > span {
+    float: left;
+}
+
+p > span {
+    color: #e76438;
+}
+
+main {
+    background: white;
+    margin: 50px 0px auto 0px;
+    border-radius: 30px;
+}
+
+form {
+    padding: 77px 40px 130px ;
+    margin-bottom: 40px;
+}
+#pass {
+    display: inline;
+}
+
+.btn-info {
+    background-color: #e76438;
+    border-color: #e76438;
+}
+
+.btn-info:hover {
+    background-color: #ff6337;
+    border-color: #ff6337;
+}
+
+#submitBtn {
+    margin: 0 auto;
+    display: block;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-color: #1fb0c6;
+    border-radius: 30%;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #1fb0c6;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 185px;
+    width: 823px;
+    background: url(../images/jeruz.svg);
+    margin: 0 auto;
+}
+
+.main_container {
+    height: 46px;
+    width: 244px;
+    padding: 3px;
+    margin: 2px;
+    max-width: 300px;
+    background-color: #555555;
+    align-content: center;
+}
+.container_inner {
+    height: auto;
+    border: none;
+    background-color: #555555;
+    max-width: 290px;
+    padding-top: 9px;
+    margin-right: 8px;
+    align-content: center;
+}
+.num_tiles {
+    width:30px;
+    height: 30px;
+    background-color: #888888;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    margin: 1.5px;
+    font-family: verdana;
+    vertical-align: center;
+}
